@@ -3,5 +3,5 @@
   hosts: all
  
   tasks:
- - name: Creates directory
-  file: path=/tmo/test state=directory
+    - name: Creates directory
+      file: path=/tmp/test state=directory
